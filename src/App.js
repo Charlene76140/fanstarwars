@@ -3,6 +3,7 @@ import './App.css';
 import Header from './components/layout/header/Header';
 import Nav from './components/layout/nav/Nav';
 import Footer from './components/layout/footer/Footer';
+import Availableresource from './components/availableresource/Availableresource';
 
 // Imports spécifiques au router REACT router dom
 // import React from "react";
@@ -16,10 +17,10 @@ function App() {
   return (
     <div>
       <Header />
-      <main>
-        test main
-      </main>
       <Nav />
+      <main>
+        <Availableresource />
+      </main>
       <Footer />
     </div>
   );

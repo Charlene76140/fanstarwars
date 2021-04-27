@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,25 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+/*----------------------------------Mon Css --------------------------- */
+body{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 100vh;
 }
+
+header, footer{
+  font-family: 'Zen Dots', cursive;
+  color : #faed27
+}
+
+.colorNav{
+  background-color: rgba(0, 0, 0, 0.26);
+}
+
+
+/*---- version mobile ---*/
+
