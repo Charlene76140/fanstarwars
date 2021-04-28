@@ -38,12 +38,12 @@
 } */
 
 /*----------------------------------Mon Css --------------------------- */
-body{
+/* #root{
   display: flex;
-  justify-content: space-between;
   flex-direction: column;
+  justify-content: space-between;
   min-height: 100vh;
-}
+} */
 
 header, footer{
   font-family: 'Zen Dots', cursive;
