@@ -20,7 +20,7 @@ function App() {
       <Header />
       <Router>
         <Nav />
-        <main className="container my-5">
+        <main className="container-fluide">
           <Switch>
             <Route path="/Availableresource">
               <Availableresource />

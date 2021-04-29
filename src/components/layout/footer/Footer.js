@@ -1,6 +1,6 @@
 function Footer () {
     return (
-        <footer className="text-center bg-dark py-5">
+        <footer className="text-center bg-dark py-4">
             <section className="container">
                 <p>blog des fans</p>
                 <p>mentions legales</p>

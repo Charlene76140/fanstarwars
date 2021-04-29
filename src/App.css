@@ -38,14 +38,8 @@
 } */
 
 /*----------------------------------Mon Css --------------------------- */
-/* #root{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  min-height: 100vh;
-} */
 
-header, footer{
+body{
   font-family: 'Zen Dots', cursive;
   color : #faed27
 }
@@ -54,6 +48,7 @@ header, footer{
   background-color: rgba(0, 0, 0, 0.26);
 }
 
-
-/*---- version mobile ---*/
-
+.card:hover {
+  color: white;
+  border: 2px white inset;
+}

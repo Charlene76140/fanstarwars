@@ -1,6 +1,6 @@
 function Showinformations () {
     return (
-        <p>voilà voilà</p>
+        <p>Le résultat</p>
     );
 }
 
