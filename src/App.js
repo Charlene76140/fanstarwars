@@ -6,7 +6,7 @@ import Footer from './components/layout/footer/Footer';
 import Availableresource from './components/availableresource/Availableresource';
 import Searchlist from './components/searchlist/Searchlist';
 
-//Imports spécifiques au router REACT router dom
+
 import React from "react";
 import {
   BrowserRouter as Router,
@@ -20,7 +20,7 @@ function App() {
       <Header />
       <Router>
         <Nav />
-        <main className="container-fluide">
+        <main className="container my-3 my-lg-5">
           <Switch>
             <Route path="/Availableresource">
               <Availableresource />

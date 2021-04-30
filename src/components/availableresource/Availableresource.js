@@ -17,11 +17,9 @@ class Availableresource extends React.Component {
     componentDidMount() {
         Axios.get("https://swapi.dev/api/")
         .then((response) => {
-            console.log(response)
-            let test = response.data;
-            console.log(test)
-            let test2 = Object.keys(test)
-            let resources= test2.map((resource)=>{
+            //I get the response from the server and I make a table
+            let array = Object.keys(response.data)
+            let resources = array.map((resource)=>{
                 return <Resource resource={resource}/>
             });
 
@@ -37,7 +35,6 @@ class Availableresource extends React.Component {
                 loaded: true,
                 error: error
             })
-            console.log(error);
         })
     }
 
@@ -49,9 +46,9 @@ class Availableresource extends React.Component {
                 );
             }
             return (
-                <section>
-                    <h2>Trouvez une information par type de ressource :</h2>
-                    <div className="container">
+                <section className="">
+                    <h2 className="py-3 text-dark">Trouvez une information par types de ressources :</h2>
+                    <div className="row">
                         {this.state.resources}
                     </div>
                 </section>

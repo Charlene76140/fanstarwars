@@ -12,14 +12,15 @@ class Makesearch extends React.Component {
         this.setState({
             value: e.target.value
         });
+
+        // this.props.searchItem(this.state.value)
         console.log(this.state.value);
     }
     
-    // Pour l'instant on renvoie simplement un input et un boutton qui sont non fonctionnels
     render() {
         return(
             <div className="my-5">
-                <h2>Saisissez l'ID du personnage recherché</h2>
+                <h2 className="text-dark">Saisissez l'ID du personnage recherché</h2>
                 <input onChange={this.handleChange} value={this.state.value} type="text" className="form-control d-inline w-50 me-3" />
             </div>
         );

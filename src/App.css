@@ -48,7 +48,40 @@ body{
   background-color: rgba(0, 0, 0, 0.26);
 }
 
-.card:hover {
+
+/*----------------------------------Mobile version--------------------------- */
+/*------Header----------*/
+h1{
+  font-size: 1.5em;
+}
+
+/*------Main----------*/
+h2{
+  font-size: 1.1em;
+}
+
+.sizeCard:hover {
   color: white;
-  border: 2px white inset;
+  border: 2px white double;
+}
+
+/*------Footer----------*/
+footer p{
+  font-size: 0.8em;
+}
+/*----------------------------------Ipad/Computer version--------------------------- */
+
+@media screen and (min-width: 576px){
+  /*------Header--------*/
+  h1{
+    font-size: 2em;
+  }
+  /*------Main----------*/
+  h2{
+    font-size: 1.5em;
+  }
+  /*------Footer--------*/
+  footer p{
+    font-size: 1em;
+  }
 }

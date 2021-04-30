@@ -1,6 +1,9 @@
-function Showinformations () {
+function Showinformations (props) {
+
+    let items = props.items
+    console.log(items)
     return (
-        <p>Le résultat</p>
+        <p>{items}</p>
     );
 }
 
