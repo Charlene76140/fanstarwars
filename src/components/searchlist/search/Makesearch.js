@@ -12,10 +12,10 @@ class Makesearch extends React.Component {
         this.setState({
             value: e.target.value
         });
-
-        // this.props.searchItem(this.state.value)
-        console.log(this.state.value);
+        console.log(this.state.value);  
     }
+
+    // this.props.searchItem(this.state.value)
     
     render() {
         return(
