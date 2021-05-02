@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -34,5 +34,53 @@
   }
   to {
     transform: rotate(360deg);
+  }
+} */
+
+/*----------------------------------Mon Css --------------------------- */
+
+body{
+  font-family: 'Zen Dots', cursive;
+  color : #faed27
+}
+
+.colorNav{
+  background-color: rgba(0, 0, 0, 0.26);
+}
+
+
+/*----------------------------------Mobile version--------------------------- */
+/*------Header----------*/
+h1{
+  font-size: 1.5em;
+}
+
+/*------Main----------*/
+h2{
+  font-size: 1.1em;
+}
+
+.sizeCard:hover {
+  color: white;
+}
+
+/*------Footer----------*/
+footer p{
+  font-size: 0.8em;
+}
+/*----------------------------------Ipad/Computer version--------------------------- */
+
+@media screen and (min-width: 576px){
+  /*------Header--------*/
+  h1{
+    font-size: 2em;
+  }
+  /*------Main----------*/
+  h2{
+    font-size: 1.5em;
+  }
+  /*------Footer--------*/
+  footer p{
+    font-size: 1em;
   }
 }
