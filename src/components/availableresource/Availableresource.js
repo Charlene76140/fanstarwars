@@ -60,4 +60,5 @@ class Availableresource extends React.Component {
     }
 }
 
+
 export default Availableresource;

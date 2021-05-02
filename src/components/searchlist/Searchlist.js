@@ -18,6 +18,7 @@ class Searchlist extends React.Component {
     componentDidMount (){
         Axios.get("https://swapi.dev/api/people/")
         .then((response) => {
+            console.log(response)
             let peoples = response.data.results.map((people)=>{
                 return <Showinformations people={people} />
             });
@@ -28,15 +29,32 @@ class Searchlist extends React.Component {
                 peoples: peoples
             })
         })
+
+        .catch((error) => {
+            this.setState({
+                loaded: true,
+                error: error
+            })
+        })
     }
     
     render () {
+        if(this.state.loaded) {
+            if(this.state.error){
+                return (
+                    <p>Une erreur est survenue : {this.state.error.message}</p>
+                );
+            }
+            return(
+                <div>
+                    <Makesearch />
+                    <h2 className="text-dark">résulat de la recherche : </h2>
+                    {this.state.peoples}
+                </div>
+            );
+        }
         return(
-            <div>
-                <Makesearch />
-                <h2 className="text-dark">résulat de la recherche : </h2>
-                {this.state.peoples}
-            </div>
+            <p>Vos données sont en cours de chargement</p>
         );
     }
 }    
