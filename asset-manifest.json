@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fanstarwars/static/css/main.71600e3f.chunk.css",
+    "main.js": "/fanstarwars/static/js/main.8db1d980.chunk.js",
+    "main.js.map": "/fanstarwars/static/js/main.8db1d980.chunk.js.map",
+    "runtime-main.js": "/fanstarwars/static/js/runtime-main.2a63dcec.js",
+    "runtime-main.js.map": "/fanstarwars/static/js/runtime-main.2a63dcec.js.map",
+    "static/js/2.1a076b35.chunk.js": "/fanstarwars/static/js/2.1a076b35.chunk.js",
+    "static/js/2.1a076b35.chunk.js.map": "/fanstarwars/static/js/2.1a076b35.chunk.js.map",
+    "static/js/3.ba63a56a.chunk.js": "/fanstarwars/static/js/3.ba63a56a.chunk.js",
+    "static/js/3.ba63a56a.chunk.js.map": "/fanstarwars/static/js/3.ba63a56a.chunk.js.map",
+    "index.html": "/fanstarwars/index.html",
+    "static/css/main.71600e3f.chunk.css.map": "/fanstarwars/static/css/main.71600e3f.chunk.css.map",
+    "static/js/2.1a076b35.chunk.js.LICENSE.txt": "/fanstarwars/static/js/2.1a076b35.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2a63dcec.js",
+    "static/js/2.1a076b35.chunk.js",
+    "static/css/main.71600e3f.chunk.css",
+    "static/js/main.8db1d980.chunk.js"
+  ]
+}
